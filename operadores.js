@@ -60,3 +60,11 @@ let perimetro4 = altura + altura + base
 let area = base * altura 
 console.log(perimetro4)
 console.log(area)
+
+let cantidadDePersonas = 100 
+cantidadDePersonas += 5
+let linea = "Cantidad de Personas: "
+console.log(linea + cantidadDePersonas)
+cantidadDePersonas -= 3
+console.log(linea + cantidadDePersonas)
+console.log(linea + cantidadDePersonas * 2)
